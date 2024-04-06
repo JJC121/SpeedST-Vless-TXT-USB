@@ -6,12 +6,12 @@ let mytoken= 'auto';//快速订阅访问入口, 留空则不启动快速订阅
 // 设置优选地址，不带端口号默认443，不支持非TLS订阅生成
 let addresses = [
 	'icook.tw:2053#优选域名',
-	'cloudflare.cfgo.cc#优选官方线路',
+	//'cloudflare.cfgo.cc#自定义优选线路',
 ];
 
 // 设置优选地址api接口
 let addressesapi = [
-	'https://raw.githubusercontent.com/cmliu/WorkerVless2sub/main/addressesapi.txt',
+	//'https://raw.githubusercontent.com/cmliu/WorkerVless2sub/main/addressesapi.txt',
 	'',//可参考内容格式 自行搭建。
 ];
 
@@ -27,9 +27,9 @@ let link = '';
 let edgetunnel = 'ed';
 let RproxyIP = 'false';
 let proxyIPs = [
-	'proxyip.aliyun.fxxk.dedyn.io',
-	'proxyip.multacom.fxxk.dedyn.io',
-	'proxyip.vultr.fxxk.dedyn.io',
+	//'proxyip.aliyun.fxxk.dedyn.io',
+	//'proxyip.multacom.fxxk.dedyn.io',
+	//'proxyip.vultr.fxxk.dedyn.io',
 ];
 let CMproxyIPs = [
 	{ proxyIP: "proxyip.fxxk.dedyn.io", type: "HK" },
