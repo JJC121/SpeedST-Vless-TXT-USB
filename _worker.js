@@ -20,13 +20,13 @@ let addressesnotls =[
 	//'www.visa.com,sg#官方优选域名'，
 	//"ww,wt0,org:8080#官方优选域名'，
 	//"www,who.int:8880#官方优选域名')
-	'time.cloudflare.com':80#定义优选',
+	'time.cloudflare.com:80#定义优选',
 'shopify.com:80#定义优选',
 'time.is:80#定义优选',
 'icook.hk:80#定义优选',
 'icook.tw:80#定义优选',
 'ip.sb:80#定义优选',
-'japan.com':80#定义优选',
+'japan.com:80#定义优选',
 'malaysia.com:80#定义优选',
 'russia.com:80#定义优选',
 'singapore.com:80#定义优选',
@@ -60,7 +60,7 @@ let addressesnotls =[
 'edgetunnel.anycast.eu.org:80#定义优选',
 'alejandracaiccedo.com:80#定义优选',
 'nc.gocada.co:80#定义优选',
-'log.bpminecraft.com':80#定义优选',
+'log.bpminecraft.com:80#定义优选',
 'www.boba88slot.com:80#定义优选',
 'gur.gov.ua:80#定义优选',
 'www.zsu.gov.ua:80#定义优选',
