@@ -4,9 +4,23 @@
 let mytoken= 'auto';//快速订阅访问入口, 留空则不启动快速订阅
 
 // 设置优选地址，不带端口号默认443，不支持非TLS订阅生成
-let addresses = [
+//let addresses = [
 	//'icook.tw:2053#定义域名',
 	//'cloudflare.cfgo.cc#优选线路',
+
+];
+
+// 设置优选地址api接口
+//let addressesapi = [
+	//'https://raw.githubusercontent.com/cmliu/WorkerVless2sub/main/addressesapi.txt',
+	'',//可参考内容格式 自行搭建。
+];
+
+//设置优选地址，不带手口号默认80，noTLS订阅生成
+let addressesnotls =[
+	//'www.visa.com,sg#官方优选域名'，
+	//"ww,wt0,org:8080#官方优选域名'，
+	//"www,who.int:8880#官方优选域名')
 	'time.cloudflare.com:80#定义优选',
 'shopify.com:80#定义优选',
 'time.is:80#定义优选',
@@ -55,21 +69,6 @@ let addresses = [
 'edtunnel-dgp.pages.dev:80#定义优选',
 'www.d-555.com:80#定义优选',
 'fbi.gov:80#定义优选',
-
-];
-
-// 设置优选地址api接口
-let addressesapi = [
-	//'https://raw.githubusercontent.com/cmliu/WorkerVless2sub/main/addressesapi.txt',
-	'',//可参考内容格式 自行搭建。
-];
-
-//设置优选地址，不带手口号默认80，noTLS订阅生成
-let addressesnotls =[
-	//'www.visa.com,sg#官方优选域名'，
-	//"ww,wt0,org:8080#官方优选域名'，
-	//"www,who.int:8880#官方优选域名')
-	
 ];
 
 let DLS = 4;//速度下限
